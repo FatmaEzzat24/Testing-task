@@ -1,0 +1,21 @@
+{
+  "name": "mystore_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./node_modules/mock-user-auth/bin/www.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nightwatch": "^3.4.1",
+    "supertest": "^6.3.4"
+  },
+  "dependencies": {
+    "mock-user-auth": "^1.0.15",
+    "nightwatch-html-reporter": "^0.1.1"
+  }
+}
